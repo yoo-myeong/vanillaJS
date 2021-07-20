@@ -1,0 +1,1 @@
+// 두가지 데이터타입 integer, string
