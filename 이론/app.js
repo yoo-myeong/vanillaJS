@@ -78,3 +78,21 @@ function h3Handle(){
     }
 }
 h3.addEventListener("click", h3Handle)
+
+// js로 css를 변경하는건 좋지 못하고 설정된 css를 html에 추가하는 방법으로 사용하자
+// classList.contains()를 사용하면 class에 어떤게 포함되어 있는 지 확인할 수 있다.
+
+const h4 = document.querySelector("#h4")
+console.log(h4)
+function h4Handle(){
+    const clickedClass = "clicked"
+    if(h4.classList.contains(clickedClass)){
+        h4.classList.remove(clickedClass)
+    }
+    else{
+        h4.classList.add(clickedClass)
+    }
+}
+h4.addEventListener("click", h4Handle)
+
+// 
