@@ -15,4 +15,5 @@ function getClock(){
     clock.innerText=`${hour}:${minute}:${second}`
 }
 
+getClock()
 setInterval(getClock, 1000)
