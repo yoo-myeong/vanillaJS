@@ -13,11 +13,14 @@ function saveToDos(){
 function deleteTodo(event){
     const li = event.target.parentElement
     li.remove()
+    todos = todos.filter((todo) => todo.id !== parseInt(li.id))
+    saveToDos()
 }
 
 
 function paintTodo(newTodo){
     const li = document.createElement("li")
+    li.id = newTodo.id
     const span = document.createElement("span")
     const button = document.createElement("button")
     span.innerText=newTodo.text
@@ -34,7 +37,7 @@ function handleToDoSubmit(event){
     const newTodo = todoInput.value
     todoInput.value = ""
     const todosObj = {
-        todos : newTodo,
+        text : newTodo,
         id : Date.now(),
     }
     todos.push(todosObj)
