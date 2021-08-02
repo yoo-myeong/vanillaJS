@@ -163,9 +163,11 @@ const parsedTodos = JSON.parse(savedTodos)
 
 ```parsedTodos```는 JSON 원소를 가지는 배열 객체로 생성된다. 배열 객체는 forEach()를 사용해서 반복문을 돌려서 배열의 각원소를 인자로 전달하여 함수를 반복 동작시킬 수 있다.
 
-### filter
+<br>
 
-**filter**는 배열에서 원하는 데이터만 추출 하고 싶을 때 자주 사용하는 사용성이 좋은 메서드로 새로운 배열을 반환해준다.
+**filter**
+
+filter는 배열에서 원하는 데이터만 추출 하고 싶을 때 자주 사용하는 사용성이 좋은 메서드로 새로운 배열을 반환해준다.
 
 ```
 todos = todos.filter((todo) => todo.id !== parseInt(li.id))
@@ -175,3 +177,19 @@ todos = todos.filter((todo) => todo.id !== parseInt(li.id))
 
 **parseInt**는 문자열을 정수로 변환해주는 메서드이다.
 
+<br>
+
+## API with JS
+
+**API**는 JS에 내장된 **fetch()**를 사용하여 호출할 수 있다.
+
+```
+const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}`
+
+fetch(url).then((response)=> response.json()).then((data)=> {}
+```
+
+위와 같이 fetch의 첫번째 인자에 URL을 넣으면 브라우저는 요청을 보내고 **Promise객체**를 반환한다. 
+**promise**는 일단은 객체를 만들고 처리가 되면 **결과를 반환**하거나 실패하면 **오류를 출력**하는 객체이다.
+
+따라서 API로부터 응답을 받으면 **결과를 반환**할 것이고 그 결과를 **response**라고 했을 때 response를 **json포멧**으로 변환하여 사용할 수 있다.
