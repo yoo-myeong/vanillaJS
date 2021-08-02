@@ -30,7 +30,7 @@
 
 # JavaScript 문법
 
-### 변수, 문자열
+## 변수, 문자열
 
 **javascript**는 **프로그래밍언어**이기 때문에 **변수**에 문자열이나 값을 저장한다.
 또한 javascrpit는 html을 조작하기 위해 만들어졌기 때문에 문자를 전달해야 하는 경우가 많다. 따라서 *변수에 저장된 문자를 전달해야 하는 경우*가 생기는 데, 이런 경우에는 다음과 같이 *문자열에 변수를 삽입*할 수 있다.
@@ -41,7 +41,7 @@ clock.innerText=`${hour}시에 약속이 있어요`
 
 <br>
 
-### 이벤트 리스너
+## 이벤트 리스너
 
 어떤 이벤트가 발생했을 때 이를 처리하는 함수를 **이벤트 리스너**라고 한다.
 
@@ -73,7 +73,7 @@ loginForm.addEventListener("submit", loginSubmit)
 
 <br>
 
-### localStorage
+## localStorage
 
 **로컬 스토리지**란 데이터를 사용자의 로컬에 보존하는 방식이다.
 어떤 값을 화면 이동이 있거나 영구적으로 저장하고 싶은 경우에 사용한다.
@@ -94,7 +94,7 @@ localStorage.getItem(username_key)
 
 <br>
 
-### classList
+## classList
 
 태그에 클래스를 생성해서 어떤 특성을 갖도록 css를 설정해준다. 어떠한 경우에는 설정한 css의 속성이 적용되기도 하고, 안되기도 하도록 만들기 위해서 javascript의 **classLsit** 기능을 사용할 수 있다.
 
@@ -113,14 +113,14 @@ loginForm.classList.remove(hidden)
 
 <br>
 
-### interval
+## interval
 
 **interval**은 반복적으로 일어나는 것을 말한다. 
 ```setInterval(함수명, ms)```을 사용해서 함수를 일정 시간 간격으로 반복 동작 시킬 수 있다.
 
 <br>
 
-### Element 생성
+## Element 생성
 
 img 태그나 h1태그 등의 **새로운 element**를 javascript에서 생성할 수 있다. 먼저 **createElement**로 태그를 생성하여 변수에 저장하고 **appendChild**를 사용하여 원하는 곳에 생성한 태그를 삽입할 수 있다.
 
