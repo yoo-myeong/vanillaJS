@@ -59,7 +59,7 @@ clock.innerText=`${hour}시에 약속이 있어요`
 
 *주의할 점은 함수명 뒤에 함수의 동작버튼인 ()을 붙이지 않아야 한다는 것*
 
-### 예시)
+**예시)**
 
 ```
 const loginForm = document.querySelector("#login-form")
@@ -87,12 +87,14 @@ loginForm.addEventListener("submit", loginSubmit)
 + **자바스크립트**로 조작
 + **key**와 **value**를 하나의 쌍으로 저장
 
-### 저장 예시)
+<br>
+
+**저장 예시)**
 ```
 localStorage.setItem(username_key, loginInput.value)
 ```
 
-### 가져오기 예시)
+**가져오기 예시)**
 ```
 localStorage.getItem(username_key)
 ```
@@ -104,13 +106,13 @@ localStorage.getItem(username_key)
 태그에 클래스를 생성해서 어떤 특성을 갖도록 css를 설정해준다. 어떠한 경우에는 설정한 css의 속성이 적용되기도 하고, 안되기도 하도록 만들기 위해서 javascript의 **classLsit** 기능을 사용할 수 있다.
 
 
-### 클래스 추가)
+**클래스 추가)**
 ```
 const loginForm = document.querySelector("#login-form")
 loginForm.classList.add(hidden)
 ```
 
-### 클래스 삭제)
+**클래스 삭제)**
 ```
 loginForm.classList.remove(hidden)
 ```
@@ -149,12 +151,12 @@ document.body.appendChild(image)
 
 이를 localstorage에 저장하기 위해서는 문자열로 바꿔야 하며, 반대로 가져오기 위해서는 JSON으로 변환해야 한다.
 
-### todos에 저장된 배열을 문자열로 바꿔서 저장하기)
+**todos에 저장된 배열을 문자열로 바꿔서 저장하기)**
 ```
 localStorage.setItem(Todos_key, JSON.stringify(todos))
 ```
 
-### savedTodos에 저장된 문자열을 JSON으로 변환하기)
+**savedTodos에 저장된 문자열을 JSON으로 변환하기)**
 ```
 const parsedTodos = JSON.parse(savedTodos)
 ```
