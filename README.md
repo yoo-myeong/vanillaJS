@@ -34,7 +34,7 @@ https://yoo-myeong.github.io/vanillaJS/
 
 <br>
 
-# :star: 구현한 기능에 사용된 JavaScript
+# :star: 페이지에  JavaScript
 
 <br>
 
