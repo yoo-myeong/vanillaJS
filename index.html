@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>momentum</title>
+    <style>
+        @font-face {
+            font-family: 'CookieRun-Regular';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: '국립박물관문화재단클래식B';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Eulyoo1945-SemiBold';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <form id= "login-form">
+        <div class="input-group" style="position:absolute;top: 20%;left: 50%;transform:translate(-50%,-50%);width: 500px;">
+            <input required maxlength="15" type="text" class="form-control" placeholder="이름을 입력해주세요" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button type="submit" class="btn btn-info">등록</button>
+        </div>
+    </form>
+
+    <h1 id = "greeting" class="hidden" style="font-family: 'CookieRun-Regular'; color:antiquewhite; text-align: center; position:absolute;top: 20%;left: 50%;transform:translate(-50%,-50%);"></h1>
+
+    <h2 id="clock" style="font-family: 'CookieRun-Regular'; color:antiquewhite; text-align: center; position:absolute;top: 30%;left: 50%;transform:translate(-50%,-50%);"></h2>
+
+    <form id = "todoForm">
+        <input required maxlength="15" type="text" class="form-control" placeholder="해야할 일을 적고 엔터를 눌러 추가해주세요" aria-label="Recipient's username" aria-describedby="button-addon2" style="width:40%; text-align: center; position:absolute;top: 45%;left: 50%;transform:translate(-50%,-50%);">
+    </form>
+    <ul id = "todoList" style="font-family: 'CookieRun-Regular'; color:antiquewhite; text-align: center; position:absolute;top: 60%;left: 50%;transform:translate(-50%,-50%);">
+    </ul>
+
+    <div id = "quote" style="font-family: '국립박물관문화재단클래식B'; color: aqua; position:absolute;top: 90%;left: 50%;transform:translate(-50%,-50%);"" >
+        <span style="margin-right: 10px;"></span>
+        <span></span>
+    </div>
+
+    <div id="weather" style="float: right;margin-top: 10px;margin-right: 10px;">
+        <h4 style="font-family: 'Eulyoo1945-SemiBold'; color: rgb(8, 1, 6); margin-bottom: 0px;" >현재날씨</h4>
+        <img style="
+        margin-left: 20px;
+    ">
+    </div>
+
+    <script src = "greeting.js"></script>
+    <script src = "clock.js"></script>
+    <script src = "quote.js"></script>
+    <script src = "background.js"></script>
+    <script src = "todolist.js"></script>
+    <script src = "weather.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
