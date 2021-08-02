@@ -71,6 +71,7 @@ loginForm.addEventListener("submit", loginSubmit)
 
 > addEventListner는 함수를 호출할 때 event object를 함수에게 넘기는데 이 객체의 preventDefault()를 사용하면 동작을 멈출 수 있다.
 
+<br>
 
 ### localStorage
 
@@ -97,7 +98,6 @@ localStorage.getItem(username_key)
 
 태그에 클래스를 생성해서 어떤 특성을 갖도록 css를 설정해준다. 어떠한 경우에는 설정한 css의 속성이 적용되기도 하고, 안되기도 하도록 만들기 위해서 javascript의 **classLsit** 기능을 사용할 수 있다.
 
-<br>
 
 클래스 추가)
 ```
@@ -105,7 +105,6 @@ const loginForm = document.querySelector("#login-form")
 loginForm.classList.add(hidden)
 ```
 
-<br>
 
 클래스 삭제)
 ```
@@ -117,3 +116,19 @@ loginForm.classList.remove(hidden)
 ### interval
 
 **interval**은 반복적으로 일어나는 것을 말한다. 
+```setInterval(함수명, ms)```을 사용해서 함수를 일정 시간 간격으로 반복 동작 시킬 수 있다.
+
+<br>
+
+### Element 생성
+
+img 태그나 h1태그 등의 **새로운 element**를 javascript에서 생성할 수 있다. 먼저 **createElement**로 태그를 생성하여 변수에 저장하고 **appendChild**를 사용하여 원하는 곳에 생성한 태그를 삽입할 수 있다.
+
+```
+const image = document.createElement("img")
+
+image.src = `img/img1.jpg`
+
+document.body.appendChild(image)
+```
+
