@@ -1,10 +1,8 @@
-# vanillaJS
-
-[노마드코더](https://nomadcoders.co/javascript-for-beginners) 강의 공부
+[노마드코더](https://nomadcoders.co/javascript-for-beginners) 강의를 공부하면서 배운 내용들을 정리했다. 모멘텀이라는 할 일 관리 웹페이지를 VanilaJS로만 코딩하면서 javascript에 대한 이해도를 높였다.
 
 <br>
 
-## JS를 배워야 하는 이유
+# JS를 배워야 하는 이유
 
 + 모든 컴퓨터에는 자바스크립트가 내장되어있다.
 
@@ -22,13 +20,15 @@
 
 <br>
 
-> 모달창, 슬라이더, 메뉴, 드래그앤드랍 등 웹의 인터렉티브한 부분을 바닐라JS로 구현할 수 있을 정도로 공부하자
+**모달창, 슬라이더, 메뉴, 드래그앤드랍 등 웹의 인터렉티브한 부분을 바닐라JS로 구현할 수 있을 정도로 공부하자**
 
 <br>
 
 <br>
 
 # JavaScript 문법
+
+<br>
 
 ## 변수, 문자열
 
@@ -131,4 +131,8 @@ image.src = `img/img1.jpg`
 
 document.body.appendChild(image)
 ```
+
+<br>
+
+## 배열
 
