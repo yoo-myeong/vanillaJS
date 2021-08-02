@@ -1,5 +1,6 @@
 <br>
-# :star: vanilaJS 페이지
+
+# :star: vanilaJS로 만든 페이지
 
 https://yoo-myeong.github.io/vanillaJS/
 
