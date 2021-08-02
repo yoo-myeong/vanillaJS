@@ -1,5 +1,3 @@
-<br>
-
 # :star: vanilaJS로 만든 페이지
 
 https://yoo-myeong.github.io/vanillaJS/
