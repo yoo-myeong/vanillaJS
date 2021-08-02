@@ -34,7 +34,7 @@ https://yoo-myeong.github.io/vanillaJS/
 
 <br>
 
-# :star: JavaScript 문법
+# :star: 구현한 기능에 사용된 JavaScript
 
 <br>
 
