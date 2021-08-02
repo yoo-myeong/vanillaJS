@@ -4,7 +4,7 @@
 
 <br>
 
-# javascript의 중요성
+# :star: javascript의 중요성
 
 + 모든 컴퓨터에는 자바스크립트가 내장되어있다.
 
@@ -30,7 +30,7 @@
 
 <br>
 
-# JavaScript 문법
+# :star: JavaScript 문법
 
 <br>
 
