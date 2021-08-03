@@ -29,34 +29,46 @@
     </style>
 </head>
 <body>
+
+    <div id="weather" style="margin-top: 10px;margin-right: 10px; text-align: right;">
+        <h4 style="font-family: 'Eulyoo1945-SemiBold'; color: rgb(8, 1, 6); margin-bottom: 0px; left:10%" >현재날씨</h4>
+        <img style="
+        margin-right: 20px;
+    ">
+    </div>
+
     <form id= "login-form">
-        <div class="input-group" style="position:absolute;top: 20%;left: 50%;transform:translate(-50%,-50%);width: 500px;">
+        <div class="input-group" style="top: 20%;left: 50%;transform:translate(-50%,-50%);width: 500px;">
             <input required maxlength="15" type="text" class="form-control" placeholder="이름을 입력해주세요" aria-label="Recipient's username" aria-describedby="button-addon2">
             <button type="submit" class="btn btn-info">등록</button>
         </div>
     </form>
 
-    <h1 id = "greeting" class="hidden" style="font-family: 'CookieRun-Regular'; color:antiquewhite; text-align: center; position:absolute;top: 20%;left: 50%;transform:translate(-50%,-50%);"></h1>
+    <div style="text-align: center;">
+    <h1 id = "greeting" class="hidden" style="font-family: 'CookieRun-Regular'; color:antiquewhite; text-align: center; top: 20%;left: 50%;"></h1>
+    </div>
 
-    <h2 id="clock" style="font-family: 'CookieRun-Regular'; color:antiquewhite; text-align: center; position:absolute;top: 30%;left: 50%;transform:translate(-50%,-50%);"></h2>
+    <div>
+        <h2 id="clock" style="font-family: 'CookieRun-Regular';color:antiquewhite;text-align: center;top: 30%;left: 50%;margin-top: 30px;margin-bottom: 30px;"></h2>
+    </div>
 
+    <div>
     <form id = "todoForm">
-        <input required maxlength="15" type="text" class="form-control" placeholder="해야할 일을 적고 엔터를 눌러 추가해주세요" aria-label="Recipient's username" aria-describedby="button-addon2" style="width:40%; text-align: center; position:absolute;top: 45%;left: 50%;transform:translate(-50%,-50%);">
+        <input required maxlength="15" type="text" class="form-control" placeholder="해야할 일을 적고 엔터를 눌러 추가해주세요" aria-label="Recipient's username" aria-describedby="button-addon2" style="position:relative; width:40%; text-align: center; top: 45%;left: 50%; transform:translate(-50%,0%);width: 500px;">
     </form>
-    <ul id = "todoList" style="font-family: 'CookieRun-Regular'; color:antiquewhite; text-align: center; position:absolute;top: 60%;left: 50%;transform:translate(-50%,-50%);">
-    </ul>
+    </div>
 
-    <div id = "quote" style="font-family: '국립박물관문화재단클래식B'; color: aqua; position:absolute;top: 90%;left: 50%;transform:translate(-50%,-50%);"" >
+
+    <div style="min-height: 400px; height: auto;">
+    <ul id = "todoList" style=" list-style:none; font-family: 'CookieRun-Regular'; color:antiquewhite; text-align: center; top: 60%;left: 50%;">
+    </ul>
+    </div>
+
+    <div id = "quote" style="text-align:center; font-family: '국립박물관문화재단클래식B'; color: aqua;top: 90%;left: 50%;">
         <span style="margin-right: 10px;"></span>
         <span></span>
     </div>
 
-    <div id="weather" style="float: right;margin-top: 10px;margin-right: 10px;">
-        <h4 style="font-family: 'Eulyoo1945-SemiBold'; color: rgb(8, 1, 6); margin-bottom: 0px;" >현재날씨</h4>
-        <img style="
-        margin-left: 20px;
-    ">
-    </div>
 
     <script src = "greeting.js"></script>
     <script src = "clock.js"></script>
