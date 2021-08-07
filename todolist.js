@@ -15,6 +15,7 @@ function deleteTodo(event){
     li.remove()
     todos = todos.filter((todo) => todo.id !== parseInt(li.id))
     saveToDos()
+    openModal()
 }
 
 
