@@ -28,13 +28,6 @@
     </style>
 </head>
 <body>
-    <div class = "modal hidden">
-        <div class = "modal_overlay"></div>
-        <div class="modal_content" style="font-size: 2vw;">
-            <h1>할 일 하나가 삭제되었습니다</h1>
-            <button>OK</button>
-        </div>
-    </div>
 
     <div id="weather" style="margin-top: 10px;margin-right: 10px; text-align: right;">
         <h4 style="font-family: 'Eulyoo1945-SemiBold'; color: rgb(8, 1, 6); margin-bottom: 0px; left:10%" >현재날씨</h4>
@@ -46,12 +39,12 @@
     <div class="nameDiv" style="text-align: center;">
         <form id="login-form">
             <div class="input-group" style="position: relative; top: 20%;left: 50%;transform:translate(-50%,-0%);width: 40%;">
-                <input required maxlength="15" type="text" class="form-control" placeholder="이름을 입력해주세요" style="width: 100%;font-family:'CookieRun-Regular';font-size: 1.5vw; text-align: center;">
+                <input required maxlength="15" type="text" class="form-control" placeholder="이름을 입력해주세요" style="width: 100%;font-family:'CookieRun-Regular';font-size: 1.2vw; text-align: center;">
                 <button type="submit" class="btn btn-info">등록</button>
             </div>
         </form>
         <h1 id="greeting" class="hidden"
-            style="font-family: 'CookieRun-Regular'; color:antiquewhite; text-align: center; top: 20%;left: 50%; font-size: 5vw;"></h1>
+            style="font-family: 'CookieRun-Regular'; color:antiquewhite; text-align: center; top: 20%;left: 50%; font-size: 3vw;"></h1>
     </div>
     
     <div>
@@ -73,6 +66,14 @@
     <div id = "quote" style="text-align:center; font-family: '국립박물관문화재단클래식B'; color: aqua;top: 80%;left: 50%;">
         <span style="margin-right: 10px;"></span>
         <span></span>
+    </div>
+
+    <div class = "modal hidden">
+        <div class = "modal_overlay"></div>
+        <div class="modal_content" style="font-size: 1.3vw;">
+            <h1>할 일 하나가<br> 삭제되었습니다</h1>
+            <button>OK</button>
+        </div>
     </div>
 
     <script src = "greeting.js"></script>
