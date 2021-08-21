@@ -1,10 +1,12 @@
 # :star: vanilaJS로 만든 페이지
 
+<br>
+
 https://yoo-myeong.github.io/vanillaJS/
 
 <br>
 
-[노마드코더](https://nomadcoders.co/javascript-for-beginners) 강의를 통해 실제 페이지를 만들면서 배운 내용들을 정리했다. **모멘텀**이라는 일정 관리 웹페이지의 인터렉티브한 부분을 모두 VanilaJS로만 코딩하면서 javascript에 대한 이해도를 높였다.
+웹페이지의 인터렉티브한 부분을 모두 VanilaJS로만 코딩하면서 javascript에 대한 이해도를 높이는 것을 목적으로 진행하는 프로젝트이다.
 
 <br>
 
