@@ -25,7 +25,7 @@ function paintTodo(newTodo){
     const span = document.createElement("span")
     const button = document.createElement("button")
     button.style = "background-color:transparent; border:0px; outline:0px"
-    span.style = "font-size : 30px;"
+    span.style = "font-size : 1.5rem;"
     span.innerText=newTodo.text
     button.innerText = '❌'
     button.addEventListener("click", deleteTodo)
