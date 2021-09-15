@@ -6,7 +6,7 @@ https://yoo-myeong.github.io/vanillaJS/
 
 <br>
 
-웹페이지의 인터렉티브한 부분을 모두 VanilaJS로만 코딩하면서 javascript에 대한 이해도를 높이는 것을 목적으로 진행하는 프로젝트이다.
+웹페이지의 인터렉티브한 동작을 모두 VanilaJS로만 코딩하면서 javascript에 대한 이해도를 높이는 것을 목적으로 진행하는 프로젝트이다.
 
 <br>
 
