@@ -38,6 +38,11 @@ https://yoo-myeong.github.io/vanillaJS/
 
 # :star: 페이지에  JavaScript
 
+### property 확인
+
+```console.dir(<객체>)```
+객체의 프로퍼티를 확인할 수 있다
+
 <br>
 
 ### :bulb: 변수, 문자열
